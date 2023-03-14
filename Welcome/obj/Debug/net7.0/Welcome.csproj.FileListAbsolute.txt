@@ -1,0 +1,15 @@
+/Users/admin/RiderProjects/Welcome/Welcome/bin/Debug/net7.0/Welcome
+/Users/admin/RiderProjects/Welcome/Welcome/bin/Debug/net7.0/Welcome.deps.json
+/Users/admin/RiderProjects/Welcome/Welcome/bin/Debug/net7.0/Welcome.runtimeconfig.json
+/Users/admin/RiderProjects/Welcome/Welcome/bin/Debug/net7.0/Welcome.dll
+/Users/admin/RiderProjects/Welcome/Welcome/bin/Debug/net7.0/Welcome.pdb
+/Users/admin/RiderProjects/Welcome/Welcome/obj/Debug/net7.0/Welcome.csproj.AssemblyReference.cache
+/Users/admin/RiderProjects/Welcome/Welcome/obj/Debug/net7.0/Welcome.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/RiderProjects/Welcome/Welcome/obj/Debug/net7.0/Welcome.AssemblyInfoInputs.cache
+/Users/admin/RiderProjects/Welcome/Welcome/obj/Debug/net7.0/Welcome.AssemblyInfo.cs
+/Users/admin/RiderProjects/Welcome/Welcome/obj/Debug/net7.0/Welcome.csproj.CoreCompileInputs.cache
+/Users/admin/RiderProjects/Welcome/Welcome/obj/Debug/net7.0/Welcome.dll
+/Users/admin/RiderProjects/Welcome/Welcome/obj/Debug/net7.0/refint/Welcome.dll
+/Users/admin/RiderProjects/Welcome/Welcome/obj/Debug/net7.0/Welcome.pdb
+/Users/admin/RiderProjects/Welcome/Welcome/obj/Debug/net7.0/Welcome.genruntimeconfig.cache
+/Users/admin/RiderProjects/Welcome/Welcome/obj/Debug/net7.0/ref/Welcome.dll
