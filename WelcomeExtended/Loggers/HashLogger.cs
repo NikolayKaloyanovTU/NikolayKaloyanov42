@@ -42,8 +42,6 @@ public class HashLogger: ILogger
         Console.WriteLine("-- LOGGER --");
         Console.ResetColor();
         _logMessages[eventId.Id] = message;
-        
-        Console.WriteLine(CollectMessages());
     }
 
     public bool IsEnabled(LogLevel logLevel)
@@ -69,8 +67,13 @@ public class HashLogger: ILogger
         return stringBuilder.ToString();
     }
     
-    public void PrintGivenEventId(EventId eventId)
+    public void PrintEventGivenEventId(EventId eventId)
     {
         Console.WriteLine(_logMessages[eventId.Id]);
-    } 
+    }
+
+    public void DeleteEventGivenEventId(EventId eventId)
+    {
+        _logMessages[eventId.Id] = "";
+    }
 }
