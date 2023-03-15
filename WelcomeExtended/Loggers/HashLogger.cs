@@ -68,4 +68,9 @@ public class HashLogger: ILogger
 
         return stringBuilder.ToString();
     }
+    
+    public void PrintGivenEventId(EventId eventId)
+    {
+        Console.WriteLine(_logMessages[eventId.Id]);
+    } 
 }
