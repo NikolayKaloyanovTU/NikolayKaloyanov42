@@ -9,7 +9,7 @@ public static class LoggerHelper
     {
         var loggerFactory = new LoggerFactory();
         
-        loggerFactory.AddProvider(new LoggerProvider());
+        loggerFactory.AddProvider(new LoggerProvider(categoryName));
         return loggerFactory.CreateLogger(categoryName);
     }
 }

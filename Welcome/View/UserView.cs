@@ -26,7 +26,7 @@ namespace Welcome.View
 
         public void DisplayError()
         {
-            throw new Exception("ТЕКСТ НА ГРЕШКАТА");
+            throw new Exception("Forced Exception!");
         }
     }
 }

@@ -4,18 +4,18 @@ namespace WelcomeExtended.Loggers;
 
 public class LoggerProvider : ILoggerProvider
 {
-    public LoggerProvider()
+    public LoggerProvider(string categoryName)
     {
-        // return new HashLogger(categoryName);
+       new HashLogger(categoryName);
     }
 
     public void Dispose()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Dispose");
     }
 
     public ILogger CreateLogger(string categoryName)
     {
-        throw new NotImplementedException();
+        return new HashLogger(categoryName);
     }
 }
