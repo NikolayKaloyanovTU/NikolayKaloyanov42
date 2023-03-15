@@ -39,7 +39,7 @@ public class HashLogger: ILogger
         messageToBeLogged.AppendFormat(" [{0}]", _name);
         Console.WriteLine(messageToBeLogged);
         Console.WriteLine($" {formatter(state, exception)}");
-        Console.WriteLine("- LOGGER -");
+        Console.WriteLine("-- LOGGER --");
         Console.ResetColor();
         _logMessages[eventId.Id] = message;
     }
