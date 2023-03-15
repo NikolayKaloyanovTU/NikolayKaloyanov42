@@ -42,6 +42,8 @@ public class HashLogger: ILogger
         Console.WriteLine("-- LOGGER --");
         Console.ResetColor();
         _logMessages[eventId.Id] = message;
+        
+        Console.WriteLine(CollectMessages());
     }
 
     public bool IsEnabled(LogLevel logLevel)
@@ -52,5 +54,18 @@ public class HashLogger: ILogger
     public IDisposable? BeginScope<TState>(TState state) where TState : notnull
     {
         return null;
+    }
+
+    public string CollectMessages()
+    {
+        StringBuilder stringBuilder = new StringBuilder();
+        
+        foreach (var keyValuePair in _logMessages)
+        {
+            stringBuilder.Append(keyValuePair.Value);
+            stringBuilder.AppendLine();
+        }
+
+        return stringBuilder.ToString();
     }
 }

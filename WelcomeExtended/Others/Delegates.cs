@@ -5,11 +5,11 @@ namespace WelcomeExtended.Others;
 
 public class Delegates
 {
-    public static readonly ILogger logger = LoggerHelper.GetLogger("Hello");
+    private static readonly ILogger Logger = LoggerHelper.GetLogger("UserDisplay Logger");
 
     public static void Log(string error)
     {
-        logger.LogError(error);
+        Logger.LogError(error);
     } 
     
     public static void Log2(string error)
