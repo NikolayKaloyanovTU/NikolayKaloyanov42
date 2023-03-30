@@ -3,7 +3,7 @@ using WelcomeExtended.Helpers;
 
 namespace WelcomeExtended.Others;
 
-public class Delegates
+public static class Delegates
 {
     public static readonly ILogger logger = LoggerHelper.GetLogger("Hello");
 

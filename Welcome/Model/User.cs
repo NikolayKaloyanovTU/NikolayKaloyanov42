@@ -15,6 +15,13 @@ namespace Welcome.Model
         private UserRolesEnum _role;
         private string _facultyNumber;
         private string _email;
+        private int _id;
+
+        public int Id
+        {
+            get { return Id; }
+            set { Id = value; }
+        }
 
         public string Names
         {
