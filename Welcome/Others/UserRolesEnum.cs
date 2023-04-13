@@ -2,10 +2,10 @@ namespace Welcome.Others
 {
     public enum UserRolesEnum
     {
-        ANONYMUS,
-        ADMIN,
-        INSPECTOR,
-        PROFESSOR,
-        STUDENT
+        Anonymous,
+        Admin,
+        Inspector,
+        Professor,
+        Student
     }
 }

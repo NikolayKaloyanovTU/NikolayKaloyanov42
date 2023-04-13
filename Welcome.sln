@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Welcome", "Welcome\Welcome.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WelcomeExtended", "WelcomeExtended\WelcomeExtended.csproj", "{467AA21E-E51F-4F06-9BF7-07B638CC6AFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{0A906923-F2C2-4533-84C3-5257C254A73B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{467AA21E-E51F-4F06-9BF7-07B638CC6AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{467AA21E-E51F-4F06-9BF7-07B638CC6AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{467AA21E-E51F-4F06-9BF7-07B638CC6AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A906923-F2C2-4533-84C3-5257C254A73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A906923-F2C2-4533-84C3-5257C254A73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A906923-F2C2-4533-84C3-5257C254A73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A906923-F2C2-4533-84C3-5257C254A73B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

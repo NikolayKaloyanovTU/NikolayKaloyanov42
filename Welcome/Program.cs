@@ -10,7 +10,7 @@ namespace Welcome
     {
         private static void Main(string[] args)
         {
-            User user = new User { Names = "Nikolay", Password = "MaskedPassword1234§~~~", Role = UserRolesEnum.ADMIN };
+            User user = new User { Names = "Nikolay", Password = "MaskedPassword1234§~~~", Role = UserRolesEnum.Admin };
 
             UserViewModel uvm = new UserViewModel(user);
             UserView userView = new UserView(uvm);

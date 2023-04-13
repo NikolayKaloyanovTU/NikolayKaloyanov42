@@ -9,7 +9,7 @@ public static class UserHelper
     
     public static string ToString(this User user)
     {
-        return _userData.ToString();
+        return user.ToString();
     }
 
     public static void ValidateCredentials(this User user)

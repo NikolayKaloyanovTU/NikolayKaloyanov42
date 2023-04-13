@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 
@@ -10,50 +12,21 @@ namespace Welcome.Model
 {
     public class User
     {
-        private string _names;
-        private string _password;
-        private UserRolesEnum _role;
-        private string _facultyNumber;
-        private string _email;
-        private int _id;
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
+        
+        public string Names { get; set; }
+        
+        public string Password { get ; set; }
 
-        public int Id
-        {
-            get { return Id; }
-            set { Id = value; }
-        }
+        public UserRolesEnum Role { get; set; }
 
-        public string Names
-        {
-            get { return _names; }
-            set { _names = value; }
-        }
+        public string FacultyNumber { get; set; }
+        
+        public string Email { get; set; }
 
-        public string Password
-        {
-            get { return _password; }
-            set { _password = Mask(value); }
-        }
-
-        public UserRolesEnum Role
-        {
-            get { return _role; }
-            set { _role = value; }
-        }
-
-        public string FacultyNumber
-        {
-            get { return _facultyNumber; }
-            set { _facultyNumber = value; }
-        }
-
-        public string Email
-        {
-            get { return _email; }
-            set { _email = value; }
-        }
-
-        private string Mask(string toBeMaskedString)
+        private static string Mask(string toBeMaskedString)
         {
             StringBuilder masked = new StringBuilder();
             foreach (char it in toBeMaskedString)

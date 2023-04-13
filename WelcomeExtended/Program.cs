@@ -4,6 +4,7 @@ using Welcome.Model;
 using Welcome.View;
 using Welcome.ViewModel;
 using WelcomeExtended.Data;
+using WelcomeExtended.Helpers;
 
 try
 {
@@ -15,7 +16,7 @@ try
         {
         Names = "Nikolay Kaloyanov",
         Password = "StingPassword",
-        Role = UserRolesEnum.STUDENT
+        Role = UserRolesEnum.Student
         };
     
     userData.AddUser(user);
@@ -24,7 +25,7 @@ try
         {
         Names = "Student2",
         Password = "123",
-        Role = UserRolesEnum.STUDENT
+        Role = UserRolesEnum.Student
         };
     
     userData.AddUser(user);
@@ -33,7 +34,7 @@ try
         {
         Names = "Teacher",
         Password = "1234",
-        Role = UserRolesEnum.PROFESSOR
+        Role = UserRolesEnum.Professor
         };
     
     userData.AddUser(user);
@@ -42,7 +43,7 @@ try
         {
         Names = "Admin",
         Password = "12345",
-        Role = UserRolesEnum.ADMIN
+        Role = UserRolesEnum.Admin
         };
     
     userData.AddUser(user);
